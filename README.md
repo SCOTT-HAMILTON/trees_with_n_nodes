@@ -9,17 +9,21 @@ $ cargo build
 $ cargo run
 ```
 
-## What it does
+## Usage
+```
+trees_with_n_nodes [-p|--print] <N>
+	N, the number of nodes per tree.
+	--print, whether every possible tree should be pretty-printed as ASCII.
+```
 
-### Requirements
+
+## Requirements
  - [slab_tree](https://github.com/iwburns/slab-tree) (just to pretty print trees as ASCII)
  - [trees](https://github.com/oooutlk/trees)
  - [itertools](https://docs.rs/itertools/)
 
-### Help
-
+## Help
 This is just a little project, but feel free to fork, change, extend or correct the code.
-
 
 ## License
 This is delivered as it is under the well known MIT License.
